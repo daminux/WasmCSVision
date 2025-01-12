@@ -11,6 +11,9 @@ Un analyseur de fichiers CSV en temps réel utilisant WebAssembly (Rust) et Java
 - 🎯 Détection automatique du délimiteur
 - 📈 Affichage des métriques de performance
 
+
+![Capture des fonctionnalités](medias/image.png)
+
 ### Types de données supportés
 
 - Entiers
