@@ -1,4 +1,4 @@
-# CSV Analyzer
+# WasmCSVision
 
 Un analyseur de fichiers CSV en temps réel utilisant WebAssembly (Rust) et JavaScript. Cette application web permet d'analyser rapidement et efficacement de grands fichiers CSV en détectant automatiquement les types de données, les statistiques de colonnes et d'autres métriques utiles.
 
@@ -35,7 +35,7 @@ Un analyseur de fichiers CSV en temps réel utilisant WebAssembly (Rust) et Java
 1. Clonez le dépôt :
 ```bash
 git clone [URL_DU_REPO]
-cd csv-analyzer
+cd WasmCSVision
 ```
 
 2. Installez les dépendances :
