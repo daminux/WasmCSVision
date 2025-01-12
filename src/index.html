@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyseur CSV</title>
+    <style>
+        body {
+            font-family: -apple-system, system-ui, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .dropzone {
+            border: 2px dashed #ccc;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .file-info {
+            background: #e3f2fd;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            display: none;
+        }
+        .analyze-btn {
+            background: #2196F3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .analyze-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        #results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Analyseur CSV</h1>
+        
+        <div class="dropzone" id="dropzone">
+            <input type="file" id="fileInput" accept=".csv">
+            <p>Glissez-déposez votre fichier CSV ici ou cliquez pour sélectionner</p>
+        </div>
+
+        <div id="fileInfo" class="file-info"></div>
+
+        <button id="analyzeBtn" class="analyze-btn" disabled>
+            Analyser le CSV
+        </button>
+
+        <div id="results"></div>
+    </div>
+</body>
+</html>
